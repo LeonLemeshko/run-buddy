@@ -1,9 +1,7 @@
-* {
-    /* Removes browsers native marginal and
-     padding defaults.  "*" is known as a universal selector */
-    
+* { 
      margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -27,9 +25,6 @@ header h1 {
 }
 
 header a {
-    /* "text-decoration set to none eliminates 
-    all strike thoughs and underlines within any <a> tags"*/
-
     text-decoration: none; 
     color: #fce138
     }
@@ -40,8 +35,6 @@ header a {
     }
 
     header nav ul li {
-        /* The "display:inlined" element will break up a list
-        horizontally in a row" */
         display: inline;
     }
 
@@ -49,4 +42,27 @@ header a {
         margin: 0 30px;
         font-weight: lighter;
         font-size: 22px;
+    }
+
+    footer {
+        background: #fce138;
+        width: 100%;
+        padding: 40px 35px;
+    }
+
+    footer h2 {
+       display: inline;
+        color: #024e76;
+        font-size: 30px;
+        margin: 0%;
+    }
+
+    footer div {
+        float: right;
+        line-height: 1.5;
+        text-align: right;
+    }
+
+    footer a {
+        color: #024e76;
     }
